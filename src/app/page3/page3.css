@@ -1,0 +1,120 @@
+:host{
+
+  .container {
+    background: #898843;
+    position: relative;
+    height: 100vh;
+    max-width: 100%;
+
+    overflow: hidden;
+  }
+
+  .phone-img {
+    position: absolute;
+    top: calc(50% - 250px);
+    right: 83px;
+    height: 504px;
+  }
+  .nav-overlay {
+    position: absolute;
+    top: 37px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .text-container {
+    position: absolute;
+    top: 204px;
+    left: 83px;
+    color: white;
+    z-index: 1;
+    text-align: center;
+
+    h1 {
+      /* Your Pet. Our Priority. */
+
+      /* Your pet’s health at your fingertips */
+
+      width: 365px;
+      height: 92px;
+
+      font-family: 'League Spartan';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 46px;
+      letter-spacing: 0;
+      color: #022664;
+
+
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+
+
+      text-align: left;
+      margin-bottom: 15px;
+    }
+    h2 {
+      /* VetSync – pet care app with reminders, expert tips and health tracking in one place. */
+      /* VetSync connects licensed professionals and facilities all around the country. Our technology provides freedom and foresight, relieving pressure, increasing visibility and establishing a data-driven strategy that’s built to scale. */
+
+      width: 318px;
+      height: 119px;
+
+      font-family: 'League Spartan';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      /* or 117% */
+
+      color: #022664;
+
+
+      /* Inside auto layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+
+
+      text-align: left;
+
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+      margin-top: 0;
+      margin-bottom: 50px;
+    }
+    .button-container {
+      display: flex;
+      gap: 15px;
+      #getstarted {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 9px;
+        gap: 10px;
+
+        height: 31px;
+        border: none;
+        background: #F3EF26;
+        border-radius: 40px;
+
+        font-family: 'League Spartan';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 13px;
+
+        color: #022664;
+
+      }
+    }
+  }
+}

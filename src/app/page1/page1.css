@@ -1,0 +1,253 @@
+:host {
+  ::ng-deep .nav-item:not(.active) {
+    mix-blend-mode: difference;
+  }
+}
+
+.video-background-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-bg {
+  position: absolute;
+  max-width: 100%;
+  /*max-height: 100%;*/
+  z-index: 0;
+}
+
+#login {
+  /* Frame 22 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+  gap: 10px;
+  background: rgba(0, 2, 1, 0);
+  /*width: 54px;*/
+  height: 31px;
+
+  border: 1px solid #022664;
+  border-radius: 40px;
+
+  /* Inside auto layout */
+
+  /* Log In */
+
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 13px;
+  /* identical to box height */
+
+  color: #022664;
+
+  &:hover {
+    background-color: #022664;
+    color: white;
+  }
+}
+
+.nav-overlay {
+  position: absolute;
+  top: 37px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  position: absolute;
+  top: 34px;
+  left: 34px;
+  align-items: center; /* wyrównanie pionowe do środka */
+  gap: 10px; /* odstęp między obrazkiem a tekstem */
+}
+
+.logo-img {
+  /*width: 200px;          !* lub inna szerokość, dopasuj *!*/
+  /*height: auto;*/
+  margin-left: -30px;
+  /* Frame 65 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: auto;
+  height: 42px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+
+}
+
+.top-button-container {
+  display: flex;
+  gap: 15px;
+
+  position: absolute;
+  top: 37px;
+  right: 34px;
+
+  #signup {
+
+    &:hover {
+      background-color: #F3EF26;
+      color: #022664;
+    }
+
+
+    /* Frame 21 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    gap: 10px;
+
+    height: 31px;
+    border: none;
+    background: #022664;
+    border-radius: 40px;
+    color: white;
+    /* Inside auto layout */
+    /* Sign Up */
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 13px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+
+.logo-text {
+  /* Vet (10) 2 */
+
+
+  font-family: 'League Spartan', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333; /* kolor tekstu */
+}
+
+
+.text-container {
+  position: absolute;
+  bottom: 37px;
+  left: 34px;
+  color: white;
+  z-index: 1;
+  text-align: center;
+
+  h1 {
+    /* Your Pet. Our Priority. */
+
+    width: 342px;
+    height: 118px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 59px;
+
+    color: #022664;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    text-align: left;
+    margin-bottom: 11px;
+  }
+
+  h2 {
+    /* VetSync – pet care app with reminders, expert tips and health tracking in one place. */
+
+    width: 402px;
+    height: 44px;
+
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    color: #022664;
+
+    text-align: left;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 0;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 15px;
+
+    #getstarted {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 9px;
+      gap: 10px;
+
+      height: 31px;
+      border: none;
+      background: #F3EF26;
+      border-radius: 40px;
+
+      font-family: 'League Spartan';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 13px;
+
+      color: #022664;
+
+      &:hover {
+        background-color: #022664;
+        color: #F3EF26;
+      }
+
+    }
+  }
+}

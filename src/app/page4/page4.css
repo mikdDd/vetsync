@@ -1,0 +1,109 @@
+:host {
+  height: auto !important;
+  position: relative;
+  background: #F7F6F3;
+  .nav-overlay {
+    position: absolute;
+    top: 37px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+  justify-content: space-between;
+    .column1 {
+      max-width: 545px;
+      margin-left: 73px;
+      margin-top: 191px;
+
+      h1 {
+        margin-top: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 46px;
+
+        color: #D4A764;
+      }
+
+      #article1 {
+        img {
+          width: 546px;
+          height: 383px;
+        }
+      }
+      #article2 {
+        img {
+          width: 450px;
+          height: auto;
+        }
+      }
+      #article3 {
+        margin-top: 296px;
+        margin-bottom: 40px;
+        img {
+          width: 519px;
+          height: auto;
+        }
+      }
+
+    }
+    .column2{
+      margin-top: 555px;
+      #article4 {
+        img {
+          width: 450px;
+          height: auto;
+        }
+      }
+      #article5 {
+        margin-top: 547px;
+        img {
+          width: 375px;
+          height: auto;
+        }
+      }
+    }
+  }
+  .article-container {
+    max-width: 545px;
+    margin-bottom: 217px;
+    h3.article-title{
+      /* Medication Manager */
+
+      width: 472px;
+      height: 28px;
+
+      font-family: 'League Spartan';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 28px;
+      /* identical to box height, or 88% */
+
+      color: #022664;
+      margin-bottom: 8px;
+      margin-top: 37px;
+    }
+    span {
+      /* Track dosage schedules, set pill reminders, and get alerts when it’s time for a refill. */
+
+      width: 472px;
+      height: 56px;
+
+      font-family: 'League Spartan';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      /* or 140% */
+
+      color: #022664;
+
+    }
+  }
+
+}

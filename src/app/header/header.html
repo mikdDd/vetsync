@@ -1,0 +1,29 @@
+<nav class="nav-container" [class.dark]="darkTheme">
+  <ul class="nav-list">
+    <li (click)="scrollToSection('page1')"
+        [class.active]="currentPageNumber===0"
+        class="nav-item"
+    >Home
+    </li>
+    <li (click)="scrollToSection('page2')"
+        [class.active]="currentPageNumber===1"
+        class="nav-item"
+    >About Us
+    </li>
+    <li (click)="scrollToSection('page3')"
+        [class.active]="currentPageNumber===2"
+        class="nav-item"
+    >Services
+    </li>
+    <li (click)="scrollToSection('page4')"
+        [class.active]="currentPageNumber===3"
+        class="nav-item"
+    >Articles
+    </li>
+    <li (click)="scrollToSection('page6')"
+        [class.active]="currentPageNumber===4"
+        class="nav-item"
+    >Contact Us
+    </li>
+  </ul>
+</nav>
